@@ -1,0 +1,52 @@
+/* Hoofdmenu stijlen */
+.et_mobile_menu {
+    width: 300% !important;
+}
+
+.et_pb_section.et_pb_section_0_tb_header.et_section_regular.et_pb_section--with-menu {
+    padding-bottom: 10px;
+}
+
+.et_pb_pagebuilder_layout.single-product .et_pb_row {
+    max-width: 100% !important;
+}
+
+/* Pas de breedte van .main-content aan op single productpagina's */
+.single-product #main-content {
+    max-width: 100% !important;
+}
+
+/* Verbergen van labels in WooCommerce formulieren */
+.woocommerce form .form-row label,
+.woocommerce-page form .form-row label {
+    display: none;
+}
+
+.woocommerce-form-coupon-toggle {
+    display: none;
+}
+
+/* Stijlen voor winkelwagen en betalingsiconen */
+.xoo-wsc-sc-subt,
+.xoo-wsc-sc-cont .xoo-wsc-cart-trigger {
+    display: none;
+}
+
+.xoo-wsc-sc-cont .xoo-wsc-cart-trigger {
+    justify-content: right;
+}
+
+/* Transparante achtergrond voor mobiele menu in header */
+.et_pb_menu_1_tb_header.et_pb_menu {
+    background-color: transparent !important;
+}
+
+/* Responsieve menu weergave instellingen */
+@media (max-width: 980px) {
+    .pa-open-mobile-menu .et_pb_menu__menu {
+        display: flex !important;
+    }
+    .pa-open-mobile-menu .et_mobile_nav_menu {
+        display: none !important;
+    }
+}
