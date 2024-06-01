@@ -1,5 +1,3 @@
-markdown
-Copy code
 # LJ Collective
 
 Welcome to the repository for [LJ Collective](http://www.ljcollective.nl), a website created for Lazlo Jacobs. This site is dedicated to showcasing and selling Lazlo's artwork, featuring a webshop module that allows visitors to purchase the displayed products.
@@ -13,10 +11,10 @@ LJ Collective offers a unique blend of art gallery and e-commerce functionality,
 The website utilizes a variety of technologies to provide a robust and user-friendly platform:
 - HTML5
 - CSS3
+- DIVI
 - JavaScript
-- PHP (if used)
-- WooCommerce (if using a WordPress-based e-commerce solution)
-- Any additional libraries and frameworks that enhance the site’s functionality
+- PHP 
+- WooCommerce 
 
 ## Local Development
 
@@ -36,7 +34,7 @@ To set up this project locally for development and testing, follow these steps:
    git clone https://github.com/yourGithubUsername/lj-collective.git
 Navigate to the lj-collective directory:
 bash
-Copy code
+
 cd lj-collective
 If using a server-side language like PHP, configure your local server to serve the files.
 Open index.html or access the local server’s URL in your browser to view the site.
@@ -46,7 +44,6 @@ Contributions are welcome! If you have ideas for improving the website, follow t
 Fork the repository.
 Create a new branch for your feature or fix:
 bash
-Copy code
 git checkout -b feature/your-feature-name
 Make your changes and test them.
 Commit your updates with a meaningful commit message:
@@ -62,23 +59,6 @@ Contact
 For more information or to ask questions, please reach out via my LinkedIn profile.
 
 vbnet
-Copy code
-
-### How to Use This README.md
-
-- **Copy** the Markdown text above.
-- **Go to your GitHub repository** where you want this README.md to reside.
-- **Create or edit the `README.md` file**:
-  - If it doesn't exist, click on "Add file" > "Create new file" and name it `README.md`.
-  - If it exists, click on "Edit file" (pencil icon).
-- **Paste** the copied Markdown text into the editor on GitHub.
-- **Preview** the file using the "Preview" tab in GitHub to check the formatting.
-- **Commit the changes**:
-  - Enter a commit message like "Update README.md with project details and contact info."
-  - Commit directly to the main branch or create a new branch and start a pull request.
-- **Save** the changes by clicking "Commit changes."
-
-This will provide a comprehensive introduction to your project and a direct way for others to contact you via LinkedIn.
 
 
 
